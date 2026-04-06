@@ -1,0 +1,73 @@
+Slide 0 -> Badge none -> MASTERCLASS
+Slide 1 -> Badge 1 -> Introduction to Python
+Slide 2 -> Badge 2 -> History of Python
+Slide 3 -> Badge 3 -> Features of Python
+Slide 4 -> Badge 4 -> Python Architecture
+Slide 5 -> Badge 5 -> Hello World
+Slide 6 -> Badge 6.1.1 -> Variables
+Slide 7 -> Badge 6.1 -> Booleans (<code className="text-red-600">bool</code>)
+Slide 8 -> Badge 6.2 -> Local &amp; Global Variables
+Slide 9 -> Badge 6.3 -> Instance vs Class Variables
+Slide 10 -> Badge 7.1.1 -> Data Types
+Slide 11 -> Badge 7.1 -> Primitive Data Types
+Slide 12 -> Badge 7.2 -> Non‑Primitive Data Types
+Slide 13 -> Badge 8.1.1 -> Operators
+Slide 14 -> Badge 8.1 -> Arithmetic Operators
+Slide 15 -> Badge 8.2 -> Conditional (Ternary) Operator
+Slide 16 -> Badge 8.3 -> Logical Operators
+Slide 17 -> Badge 8.4 -> Bitwise Operators
+Slide 18 -> Badge 8.5 -> Relational Operators
+Slide 19 -> Badge 9.1.1 -> Conditional Statements
+Slide 20 -> Badge 9.1 -> if Statement
+Slide 21 -> Badge 9.2 -> if‑else Statement
+Slide 22 -> Badge 9.3 -> Nested if
+Slide 23 -> Badge 9.4 -> elif Ladder
+Slide 24 -> Badge 9.5 -> Ternary Operator
+Slide 25 -> Badge 10.1.1 -> Loops in Python
+Slide 26 -> Badge 10.1 -> For Loop
+Slide 27 -> Badge 10.2 -> While Loop
+Slide 28 -> Badge 10.3 -> For-Each Loop
+Slide 29 -> Badge 10.4 -> Do-while Loop
+Slide 30 -> Badge 10.5 -> Loop Control
+Slide 31 -> Badge 11 -> Lists
+Slide 32 -> Badge 12 -> List Operations
+Slide 33 -> Badge 13 -> Tuples
+Slide 34 -> Badge 14 -> Dictionaries
+Slide 35 -> Badge 15 -> Sets
+Slide 36 -> Badge 16 -> Strings
+Slide 37 -> Badge 17 -> String Formatting
+Slide 38 -> Badge 18 -> Functions Basics
+Slide 39 -> Badge 19 -> Advanced Functions
+Slide 40 -> Badge 20 -> Scope and Namespace
+Slide 41 -> Badge 21 -> Lambda Functions
+Slide 42 -> Badge 22 -> List Comprehensions
+Slide 43 -> Badge 23 -> Nested Data Structures
+Slide 44 -> Badge 24 -> Copying Data Structures
+Slide 45 -> Badge 25 -> Classes and Objects
+Slide 46 -> Badge 26 -> Inheritance
+Slide 47 -> Badge 27 -> Encapsulation
+Slide 48 -> Badge 28 -> Polymorphism
+Slide 49 -> Badge 29 -> Abstraction
+Slide 50 -> Badge 30 -> Magic Methods
+Slide 51 -> Badge 31 -> Exceptions
+Slide 52 -> Badge 32 -> Exception Handling
+Slide 53 -> Badge 33 -> Custom Exceptions
+Slide 54 -> Badge 34 -> File Operations
+Slide 55 -> Badge 35 -> Reading Files
+Slide 56 -> Badge 36 -> Writing Files
+Slide 57 -> Badge 37 -> Working with CSV
+Slide 58 -> Badge 38 -> JSON Handling
+Slide 59 -> Badge 39 -> Modules
+Slide 60 -> Badge 40 -> Packages
+Slide 61 -> Badge 41 -> Standard Library
+Slide 62 -> Badge 42 -> Third-Party Packages
+Slide 63 -> Badge 43 -> Decorators
+Slide 64 -> Badge 44 -> Generators
+Slide 65 -> Badge 45 -> Iterators
+Slide 66 -> Badge 46 -> Context Managers
+Slide 67 -> Badge 47 -> Regular Expressions
+Slide 68 -> Badge 48.1 -> Multithreading
+Slide 69 -> Badge 49 -> Multiprocessing
+Slide 70 -> Badge 50 -> Date and Time
+Slide 71 -> Badge 51 -> Database Integration
+Slide 72 -> Badge none -> Congratulations!

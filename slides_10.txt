@@ -1,0 +1,6 @@
+Slide 25 -> Badge 10.1.1 -> Loops in Python
+Slide 26 -> Badge 10.1 -> For Loop
+Slide 27 -> Badge 10.2 -> While Loop
+Slide 28 -> Badge 10.3 -> For-Each Loop
+Slide 29 -> Badge 10.4 -> Do-while Loop
+Slide 30 -> Badge 10.5 -> Loop Control

@@ -1,0 +1,75 @@
+JSX Slides count: 73
+JS Texts count: 73
+Idx 0: JSX=No Badge | TEXT=Welcome to the Python Programm
+Idx 1: JSX=1 | TEXT=Chapter 1: Introduction to Pyt
+Idx 2: JSX=2 | TEXT=Chapter 2: History of Python. 
+Idx 3: JSX=3 | TEXT=Chapter 3: Features of Python.
+Idx 4: JSX=4 | TEXT=Chapter 4: Python Architecture
+Idx 5: JSX=5 | TEXT=Chapter 5: Your First Python P
+Idx 6: JSX=6.1.1 | TEXT=Chapter 6: Variables. A variab
+Idx 7: JSX=6.1 | TEXT=Chapter 6.1: Booleans. Boolean
+Idx 8: JSX=6.2 | TEXT=Chapter 6.2: Variable Scope. S
+Idx 9: JSX=6.3 | TEXT=Chapter 6.3: Instance and Clas
+Idx 10: JSX=7.1.1 | TEXT=Chapter 7: Data Types. Python 
+Idx 11: JSX=7.1 | TEXT=Chapter 7.1: Integers. Integer
+Idx 12: JSX=7.2 | TEXT=Chapter 7.2: Floats. Floating 
+Idx 13: JSX=8.1.1 | TEXT=Chapter 8: Operators. Python p
+Idx 14: JSX=8.1 | TEXT=Chapter 8.1: Arithmetic Operat
+Idx 15: JSX=8.2 | TEXT=Chapter 8.2: Ternary Operator.
+Idx 16: JSX=8.3 | TEXT=Chapter 8.3: Logical Operators
+Idx 17: JSX=8.4 | TEXT=Chapter 8.4: Bitwise Operators
+Idx 18: JSX=8.5 | TEXT=Chapter 8.5: Relational Operat
+Idx 19: JSX=9.1.1 | TEXT=Chapter 9: Conditional Stateme
+Idx 20: JSX=9.1 | TEXT=Chapter 9.1: The If Statement.
+Idx 21: JSX=9.2 | TEXT=Chapter 9.2: If-Else. Provide 
+Idx 22: JSX=9.3 | TEXT=Chapter 9.3: Nested If. You ca
+Idx 23: JSX=9.4 | TEXT=Chapter 9.4: Elif Ladder. Use 
+Idx 24: JSX=9.5 | TEXT=Chapter 9.5: Ternary Operation
+Idx 25: JSX=10.1.1 | TEXT=Chapter 10: Loops. Loops allow
+Idx 26: JSX=10.1 | TEXT=Chapter 10.1: For Loops. Ideal
+Idx 27: JSX=10.2 | TEXT=Chapter 10.2: While Loops. Rep
+Idx 28: JSX=10.3 | TEXT=Chapter 10.3: For-Each Pattern
+Idx 29: JSX=10.4 | TEXT=Chapter 10.4: Simulation of Do
+Idx 30: JSX=10.5 | TEXT=Chapter 10.5: Loop Control Sum
+Idx 31: JSX=11 | TEXT=Chapter 11: Lists. Lists store
+Idx 32: JSX=12 | TEXT=Chapter 12: List Operations. P
+Idx 33: JSX=13 | TEXT=Chapter 13: Tuples. Tuples are
+Idx 34: JSX=14 | TEXT=Chapter 14: Dictionaries. Dict
+Idx 35: JSX=15 | TEXT=Chapter 15: Sets. Sets are uno
+Idx 36: JSX=16 | TEXT=Chapter 16: Strings. Strings a
+Idx 37: JSX=17 | TEXT=Chapter 17: String Formatting.
+Idx 38: JSX=18 | TEXT=Chapter 18: Functions Basics. 
+Idx 39: JSX=19 | TEXT=Chapter 19: Advanced Functions
+Idx 40: JSX=20 | TEXT=Chapter 20: Scope and Namespac
+Idx 41: JSX=21 | TEXT=Chapter 21: Lambda Functions. 
+Idx 42: JSX=22 | TEXT=Chapter 22: List Comprehension
+Idx 43: JSX=23 | TEXT=Chapter 23: Nested Data Struct
+Idx 44: JSX=24 | TEXT=Chapter 24: Copying. Shallow c
+Idx 45: JSX=25 | TEXT=Chapter 25: Classes and Object
+Idx 46: JSX=26 | TEXT=Chapter 26: Inheritance. Child
+Idx 47: JSX=27 | TEXT=Chapter 27: Encapsulation. Pro
+Idx 48: JSX=28 | TEXT=Chapter 28: Polymorphism. Diff
+Idx 49: JSX=29 | TEXT=Chapter 29: Abstraction. Hide 
+Idx 50: JSX=30 | TEXT=Chapter 30: Magic Methods. Dun
+Idx 51: JSX=31 | TEXT=Chapter 31: Exceptions. Runtim
+Idx 52: JSX=32 | TEXT=Chapter 32: Exception Handling
+Idx 53: JSX=33 | TEXT=Chapter 33: Custom Exceptions.
+Idx 54: JSX=34 | TEXT=Chapter 34: File Operations. O
+Idx 55: JSX=35 | TEXT=Chapter 35: Reading Files. Met
+Idx 56: JSX=36 | TEXT=Chapter 36: Writing Files. Use
+Idx 57: JSX=37 | TEXT=Chapter 37: CSV Handling. The 
+Idx 58: JSX=38 | TEXT=Chapter 38: JSON. Light-weight
+Idx 59: JSX=39 | TEXT=Chapter 39: Modules. Reusable 
+Idx 60: JSX=40 | TEXT=Chapter 40: Packages. Hierarch
+Idx 61: JSX=41 | TEXT=Chapter 41: Standard Library. 
+Idx 62: JSX=42 | TEXT=Chapter 42: Third-Party Packag
+Idx 63: JSX=43 | TEXT=Chapter 43: Decorators. Wrap f
+Idx 64: JSX=44 | TEXT=Chapter 44: Generators. Use yi
+Idx 65: JSX=45 | TEXT=Chapter 45: Iterators. Objects
+Idx 66: JSX=46 | TEXT=Chapter 46: Context Managers. 
+Idx 67: JSX=47 | TEXT=Chapter 47: Regular Expression
+Idx 68: JSX=48.1 | TEXT=Chapter 48: Multithreading. Ru
+Idx 69: JSX=49 | TEXT=Chapter 49: Multiprocessing. B
+Idx 70: JSX=50 | TEXT=Chapter 50: Date and Time. The
+Idx 71: JSX=51 | TEXT=Chapter 51: Database Integrati
+Idx 72: JSX=No Badge | TEXT=Congratulations! You have mast
