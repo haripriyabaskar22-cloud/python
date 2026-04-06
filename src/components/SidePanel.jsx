@@ -212,7 +212,7 @@ export default function SidePanel({ currentSlide = 0 }) {
   return (
     <>
       {/* ── Floating Action Buttons (FABs) ── */}
-      <div className="fixed right-6 bottom-[104px] flex flex-col gap-4 z-40">
+      <div className="fixed right-4 md:right-6 bottom-[104px] flex flex-col gap-4 z-40">
 
         {/* Videos Floating Button */}
         <motion.button
@@ -260,7 +260,7 @@ export default function SidePanel({ currentSlide = 0 }) {
             animate={{ opacity: 1, scale: 1, y: 0 }}
             exit={{ opacity: 0, scale: 0.95, y: 20 }}
             transition={{ type: 'spring', damping: 25, stiffness: 300 }}
-            className="fixed right-24 bottom-24 z-50 w-80 md:w-96 rounded-3xl overflow-hidden shadow-2xl flex flex-col border border-white/10"
+            className="fixed right-4 md:right-24 bottom-24 z-50 w-[calc(100vw-32px)] md:w-96 rounded-3xl overflow-hidden shadow-2xl flex flex-col border border-white/10"
             style={{
               height: '500px',
               maxHeight: '75vh',

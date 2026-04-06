@@ -29,6 +29,13 @@
   transition: box-shadow 0.6s ease;
 }
 
+@media (max-width: 768px) {
+  .slide-section {
+    padding: 3rem 1rem 2rem 1rem;
+    padding-right: 1rem;
+  }
+}
+
 .slide-section::before {
   content: '';
   position: absolute;

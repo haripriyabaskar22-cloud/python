@@ -35,7 +35,7 @@ const CodeBlock = ({ filename, code }) => {
         <div className="w-3 h-3 rounded-full bg-green-500 opacity-80" />
         <span className="text-[#8b949e] ml-4 font-mono text-sm">{filename}</span>
       </div>
-      <pre className="p-8 text-base font-mono leading-relaxed overflow-x-auto text-[#e6edf3] whitespace-pre">
+      <pre className="p-4 md:p-8 text-sm md:text-base font-mono leading-relaxed overflow-x-auto text-[#e6edf3] whitespace-pre-wrap">
         <code>{code}</code>
       </pre>
     </div>
@@ -144,7 +144,7 @@ export default function PythonCourse() {
                   </svg>
                 </motion.div>
               </SlideItem>
-              <SlideItem delay={0.1}><h1 className="text-6xl md:text-8xl font-black text-white mb-2 tracking-tight" style={{ textShadow: '0 0 60px rgba(56,189,248,0.5), 0 4px 20px rgba(0,0,0,0.4)' }}>PYTHON</h1></SlideItem>
+              <SlideItem delay={0.1}><h1 className="text-5xl md:text-8xl font-black text-white mb-2 tracking-tight" style={{ textShadow: '0 0 60px rgba(56,189,248,0.5), 0 4px 20px rgba(0,0,0,0.4)' }}>PYTHON</h1></SlideItem>
               <SlideItem delay={0.2}><h2 className="text-3xl md:text-5xl font-bold mb-4" style={{ color: '#38bdf8' }}>MASTERCLASS</h2></SlideItem>
               <SlideItem delay={0.3}><p className="text-lg md:text-xl text-blue-100/90 font-medium max-w-lg leading-relaxed mb-8">From Basics to Advanced projects — everything you need in <strong className="text-white">51 Chapters</strong>.</p></SlideItem>
             </div>
@@ -1758,7 +1758,7 @@ while True:
                         <div className="flex items-center gap-2 mb-2">
                           <span className="text-yellow-400 text-sm font-mono">📤 Interactive Output:</span>
                         </div>
-                        <pre className="text-sm font-mono text-green-400 whitespace-pre-wrap bg-black/30 p-3 rounded-lg mb-3">
+                        <pre className="text-xs md:text-sm font-mono text-green-400 whitespace-pre-wrap bg-black/30 p-3 rounded-lg mb-3">
                           {output}
                         </pre>
                         <div className="flex gap-2">
@@ -1808,9 +1808,9 @@ while True:
                         <pre className="text-sm font-mono text-green-400 whitespace-pre-wrap bg-black/30 p-3 rounded-lg mb-3">
                           {output}
                         </pre>
-                        <div className="flex gap-2">
+                        <div className="flex flex-wrap gap-2 justify-center">
                           {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map(num => (
-                            <button key={num} onClick={() => handleGuess(num)} className="bg-gray-700 hover:bg-gray-600 px-3 py-1 rounded text-white text-sm">
+                            <button key={num} onClick={() => handleGuess(num)} className="bg-gray-700 hover:bg-gray-600 px-3 py-1 rounded text-white text-xs md:text-sm">
                               {num}
                             </button>
                           ))}
@@ -2516,7 +2516,7 @@ while True:
           <SlideItem>
             <motion.div animate={{ rotate: [0, 10, -10, 10, 0], scale: [1, 1.2, 1] }} transition={{ repeat: Infinity, duration: 4 }} className="text-9xl mb-8">🎉</motion.div>
           </SlideItem>
-          <SlideItem delay={0.2}><h2 className="text-6xl md:text-8xl font-black text-white mb-6 tracking-tight drop-shadow-lg" style={{ textShadow: '0 0 60px rgba(56,189,248,0.4)' }}>Congratulations!</h2></SlideItem>
+          <SlideItem delay={0.2}><h2 className="text-4xl md:text-8xl font-black text-white mb-6 tracking-tight drop-shadow-lg text-center px-4" style={{ textShadow: '0 0 60px rgba(56,189,248,0.4)' }}>Congratulations!</h2></SlideItem>
           <SlideItem delay={0.3}>
             <p className="text-2xl text-blue-200 font-medium max-w-3xl mb-8 leading-relaxed">
               You have mastered <strong className="text-white">all 51 Python chapters</strong> — from Hello World to Database Integration! You are ready to build real applications!
@@ -2544,7 +2544,7 @@ while True:
                 if (slides[0]) slides[0].scrollIntoView({ behavior: 'smooth' });
                 else window.scrollTo({ top: 0, behavior: 'smooth' });
               }}
-              className="text-2xl font-black py-6 px-16 rounded-full shadow-2xl transition-all"
+              className="text-xl md:text-2xl font-black py-4 md:py-6 px-10 md:px-16 rounded-full shadow-2xl transition-all"
               style={{ background: 'linear-gradient(135deg, #0369a1, #4f46e5)', color: 'white', border: '1px solid rgba(56,189,248,0.4)' }}>
               Start Again
             </motion.button>

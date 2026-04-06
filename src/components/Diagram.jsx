@@ -38,7 +38,7 @@ export default function Diagram({ type }) {
 
     case 'timeline':
       return (
-        <div className="flex flex-col items-center w-full mt-12">
+        <div className="flex flex-col items-center w-full mt-12 px-4">
           <div className="flex flex-col md:flex-row items-center justify-center gap-6 w-full max-w-5xl mx-auto relative">
             <div className="absolute top-1/2 left-0 w-full h-2 bg-slate-100 -z-10 hidden md:block rounded-full" />
             <motion.div className="absolute top-1/2 left-0 h-2 bg-yellow-400 -z-10 hidden md:block rounded-full"
@@ -227,11 +227,11 @@ export default function Diagram({ type }) {
       return (
         <div className="flex flex-col items-center w-full mt-12">
           <div className="flex flex-col items-center w-full max-w-3xl mx-auto">
-            <div className="flex items-end justify-center gap-0 mb-6">
+            <div className="flex flex-wrap justify-center gap-2 md:gap-0 mb-6">
               {[85, 92, 78, 96, 88].map((val, i) => (
                 <motion.div key={i} initial={{ opacity: 0, y: 40 }} whileInView={{ opacity: 1, y: 0 }}
                   transition={{ delay: i * 0.15, type: 'spring', bounce: 0.5 }} className="flex flex-col items-center">
-                  <div className="w-20 h-20 md:w-24 md:h-24 bg-indigo-100 border-4 border-indigo-400 flex items-center justify-center font-black text-3xl text-indigo-800 shadow-lg"
+                  <div className="w-16 h-16 md:w-24 md:h-24 bg-indigo-100 border-4 border-indigo-400 flex items-center justify-center font-black text-2xl md:text-3xl text-indigo-800 shadow-lg"
                     style={{ borderRight: i < 4 ? '2px solid #818cf8' : undefined }}>{val}</div>
                   <span className="mt-2 text-slate-500 font-mono font-bold text-lg">[{i}]</span>
                 </motion.div>
@@ -251,8 +251,8 @@ export default function Diagram({ type }) {
 
     case 'oop-pillars':
       return (
-        <div className="flex flex-col items-center w-full mt-12">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 w-full max-w-5xl mx-auto">
+        <div className="flex flex-col items-center w-full mt-12 px-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 w-full max-w-5xl mx-auto">
             {[
               { emoji: '🔒', title: 'Encapsulation', desc: 'Bundle data & methods in a class', color: 'bg-blue-50 border-blue-200 text-blue-900' },
               { emoji: '👨‍👧', title: 'Inheritance', desc: 'Child class inherits from parent', color: 'bg-emerald-50 border-emerald-200 text-emerald-900' },
@@ -317,7 +317,7 @@ export default function Diagram({ type }) {
             </motion.div>
             <motion.div animate={{ y: [0,6,0] }} transition={{ repeat: Infinity, duration: 1.5 }}
               className="text-5xl text-slate-400 my-2">↓</motion.div>
-            <div className="flex gap-8 w-full justify-center">
+            <div className="flex flex-col md:flex-row gap-4 md:gap-8 w-full justify-center px-4">
               {[
                 { emoji: '🐶', name: 'Dog(Animal)', extra: 'bark()', color: 'bg-blue-50 border-blue-400 text-blue-900' },
                 { emoji: '🐱', name: 'Cat(Animal)', extra: 'meow()', color: 'bg-purple-50 border-purple-400 text-purple-900' },
@@ -452,7 +452,7 @@ export default function Diagram({ type }) {
             </motion.div>
             <motion.div animate={{ y: [0,5,0] }} transition={{ repeat: Infinity, duration: 1.5 }}
               className="text-4xl text-slate-400 mb-4">↓</motion.div>
-            <div className="flex gap-6 w-full justify-center flex-wrap">
+            <div className="flex flex-col md:flex-row gap-6 w-full justify-center items-center px-4">
               {[
                 { emoji: '🐶', name: 'Dog', result: '"Woof!"', color: 'bg-blue-50 border-blue-300 text-blue-900' },
                 { emoji: '🐱', name: 'Cat', result: '"Meow!"', color: 'bg-purple-50 border-purple-300 text-purple-900' },
@@ -477,7 +477,7 @@ export default function Diagram({ type }) {
 
     case 'collections':
       return (
-        <div className="flex flex-col items-center w-full mt-12">
+        <div className="flex flex-col items-center w-full mt-12 px-4">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 w-full max-w-5xl mx-auto">
             {[
               { name: 'dict', emoji: '📖', color: 'bg-blue-50 border-blue-300 text-blue-900', desc: 'Key-value pairs, fast lookup, ordered (3.7+)', example: ['"name": "Ravi"', '"age": 21'] },
